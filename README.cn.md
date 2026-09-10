@@ -4,7 +4,7 @@
 
 Encrypted, command-line TOTP/HOTP authenticator app with import functionality.
 
-![cotp](https://repo.x-cmd.io/cotp.svg)
+![cotp](https://repo.x-cmd.io/cotp.svg?lang=zh)
 
 ## 安装
 
@@ -21,7 +21,6 @@ x install cotp
 
 - **最新版本**: `v1.10.0` (2026-07-22)
 - **最近提交**: 2026-07-26
-- **发布时间**: 2026-07-22T21:34:49Z
 
 ## 流行度
 
@@ -70,4 +69,4 @@ cotp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T03:11:22Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:21:36Z._
