@@ -12,6 +12,28 @@ Encrypted, command-line TOTP/HOTP authenticator app with import functionality.
 x install cotp
 ```
 
+## 代码洞察
+
+合计: **4,342** 行代码（覆盖前 5 种语言、共 **71** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 4,012 | 127 | 610 | 58 |
+| Python | 168 | 2 | 39 | 5 |
+| Json | 78 | 0 | 1 | 4 |
+| Toml | 61 | 2 | 4 | 2 |
+| Xml | 14 | 0 | 0 | 2 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **4.8 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (0/10) — Found 0/4 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/replydev/cotp>
@@ -35,30 +57,27 @@ x install cotp
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 1 | 3 | 7 | 1 | 0 | 5 |
 | 90d | 2026-06-12 | 1 | 4 | 7 | 1 | 0 | 7 |
+| last180d | 2026-03-14 | 4 | 12 | 7 | 4 | 0 | 23 |
 | 360d | 2025-09-15 | 4 | 19 | 7 | 7 | 0 | 42 |
+| last720d | 2024-09-20 | 10 | 91 | 7 | 11 | 0 | 261 |
 
-## 代码规模
+## 发行版状态
 
-合计: **4,342** 行代码（覆盖前 5 种语言、共 **71** 个文件）。
+在 [repology.org](https://repology.org/project/cotp) 上共有 **39** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**22** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 4,012 | 127 | 610 | 58 |
-| Python | 168 | 2 | 39 | 5 |
-| Json | 78 | 0 | 1 | 4 |
-| Toml | 61 | 2 | 4 | 2 |
-| Xml | 14 | 0 | 0 | 2 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **4.8 / 10**
-
-评分最低的几项:
-
-- **Code-Review** (0/10) — Found 0/4 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.9.10` | ⚠️ outdated |
+| Debian 14 | `1.9.10` | ⚠️ outdated |
+| Debian 13 | `1.9.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.9.7` | ⚠️ outdated |
+| Arch | `1.10.0` | ✅ latest |
+| Homebrew | `1.10.0` | ✅ latest |
+| Nix unstable | `1.10.0` | ✅ latest |
+| Void | `1.9.9` | ⚠️ outdated |
+| Alpine edge | `1.9.7` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -69,4 +88,4 @@ cotp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:21:36Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T23:46:30Z._
