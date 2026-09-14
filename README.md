@@ -56,28 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 1 | 2 | 7 | 1 | 0 | 5 |
-| 90d | 2026-06-15 | 1 | 4 | 7 | 1 | 0 | 6 |
-| last180d | 2026-03-17 | 4 | 12 | 7 | 4 | 0 | 21 |
-| 360d | 2025-09-18 | 4 | 18 | 7 | 7 | 0 | 42 |
-| last720d | 2024-09-23 | 10 | 91 | 7 | 11 | 0 | 261 |
-
-## Distribution status
-
-Reported by **39** distros on [repology.org](https://repology.org/project/cotp). **15** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.9.10` | ⚠️ outdated |
-| Debian 14 | `1.9.10` | ⚠️ outdated |
-| Debian 13 | `1.9.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.9.7` | ⚠️ outdated |
-| Arch | `1.10.0` | ✅ latest |
-| Homebrew | `1.10.0` | ✅ latest |
-| Nix unstable | `1.10.0` | ✅ latest |
-| Void | `1.9.9` | ⚠️ outdated |
-| Alpine edge | `1.9.7` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 1 | 2 | 7 | 1 | 0 | 5 |
+| 90d | 2026-06-16 | 1 | 4 | 7 | 1 | 0 | 6 |
+| last180d | 2026-03-18 | 3 | 12 | 7 | 3 | 0 | 21 |
+| 360d | 2025-09-19 | 4 | 18 | 7 | 7 | 0 | 42 |
+| last720d | 2024-09-24 | 10 | 91 | 7 | 11 | 0 | 261 |
 
 ## Improve this data
 
@@ -88,4 +72,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T03:15:50Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T03:28:29Z._
