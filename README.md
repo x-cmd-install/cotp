@@ -4,7 +4,7 @@
 
 Encrypted, command-line TOTP/HOTP authenticator app with import functionality.
 
-![cotp](https://repo.x-cmd.io/cotp.svg)
+[![x-cmd/install — cotp Code Quality Monitoring Repo Card](https://repo.x-cmd.io/cotp.svg)](https://x-cmd.com/install/cotp)
 
 ## Install
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 1 | 2 | 7 | 0 | 0 | 5 |
-| 90d | 2026-06-20 | 1 | 3 | 7 | 1 | 0 | 6 |
-| last180d | 2026-03-22 | 3 | 12 | 7 | 3 | 0 | 21 |
-| 360d | 2025-09-23 | 4 | 18 | 7 | 7 | 0 | 42 |
-| last720d | 2024-09-28 | 10 | 91 | 7 | 11 | 0 | 261 |
+| 30d | 2026-08-21 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 1 | 1 | 6 | 0 | 0 | 0 |
+| 90d | 2026-06-22 | 1 | 3 | 7 | 1 | 0 | 6 |
+| last180d | 2026-03-24 | 3 | 12 | 7 | 3 | 0 | 21 |
+| 360d | 2025-09-25 | 4 | 18 | 7 | 7 | 0 | 40 |
+| last720d | 2024-09-30 | 10 | 91 | 7 | 11 | 0 | 261 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T03:17:09Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T03:30:22Z._
