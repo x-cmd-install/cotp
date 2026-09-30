@@ -26,7 +26,7 @@ Total: **4,342** lines of code across **71** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.8 / 10**
+Overall score: **4.7 / 10**
 
 Lowest-scoring checks:
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-07-31 | 0 | 0 | 7 | 0 | 0 | 0 |
-| 90d | 2026-07-01 | 1 | 3 | 8 | 1 | 0 | 6 |
-| last180d | 2026-04-02 | 3 | 12 | 8 | 3 | 0 | 21 |
-| 360d | 2025-10-04 | 4 | 18 | 8 | 7 | 0 | 40 |
-| last720d | 2024-10-09 | 10 | 89 | 8 | 11 | 0 | 260 |
+| 30d | 2026-08-31 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-08-01 | 0 | 0 | 7 | 0 | 0 | 0 |
+| 90d | 2026-07-02 | 1 | 3 | 8 | 1 | 0 | 6 |
+| last180d | 2026-04-03 | 3 | 12 | 8 | 3 | 0 | 21 |
+| 360d | 2025-10-05 | 4 | 18 | 8 | 7 | 0 | 40 |
+| last720d | 2024-10-10 | 10 | 88 | 8 | 11 | 0 | 259 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T04:20:02Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T04:03:56Z._
