@@ -14,14 +14,14 @@ x install cotp
 
 ## Code insight
 
-Total: **4,342** lines of code across **71** files in the top 5 languages.
+Total: **6,363** lines of code across **78** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 4,012 | 127 | 610 | 58 |
-| Python | 168 | 2 | 39 | 5 |
+| Rust | 5,974 | 113 | 671 | 64 |
+| Python | 223 | 4 | 46 | 6 |
 | Json | 78 | 0 | 1 | 4 |
-| Toml | 61 | 2 | 4 | 2 |
+| Toml | 63 | 2 | 4 | 2 |
 | Xml | 14 | 0 | 0 | 2 |
 
 ## OpenSSF Scorecard
@@ -41,27 +41,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.10.0` (2026-07-22)
-- **Last commit**: 2026-07-26
+- **Latest**: `v1.11.0` (2026-10-21)
+- **Last commit**: 2026-10-21
 
 ## Popularity
 
-- **Stars**: 391 · **Forks**: 28 · **Open issues**: 57 · **Contributors**: 12
+- **Stars**: 392 · **Forks**: 28 · **Open issues**: 58 · **Contributors**: 12
 
 ## Totals (cumulative)
 
-- **Releases**: 49 · **Merged PRs**: 424 · **Open PRs**: 12 · **Closed issues**: 57 · **Open issues**: 0 · **Commits**: 1507
+- **Releases**: 51 · **Merged PRs**: 426 · **Open PRs**: 2 · **Closed issues**: 58 · **Open issues**: 0 · **Commits**: 1518
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last60d | 2026-08-22 | 0 | 0 | 8 | 0 | 0 | 0 |
-| 90d | 2026-07-23 | 0 | 0 | 11 | 0 | 0 | 0 |
-| last180d | 2026-04-24 | 2 | 8 | 12 | 3 | 0 | 18 |
-| 360d | 2025-10-26 | 4 | 18 | 12 | 7 | 0 | 34 |
-| last720d | 2024-10-31 | 10 | 82 | 12 | 9 | 0 | 237 |
+| 30d | 2026-09-22 | 2 | 2 | 1 | 1 | 0 | 8 |
+| last60d | 2026-08-23 | 2 | 2 | 1 | 1 | 0 | 8 |
+| 90d | 2026-07-24 | 2 | 2 | 1 | 1 | 0 | 8 |
+| last180d | 2026-04-25 | 4 | 10 | 2 | 4 | 0 | 26 |
+| 360d | 2025-10-27 | 6 | 19 | 2 | 8 | 0 | 42 |
+| last720d | 2024-11-01 | 12 | 84 | 2 | 10 | 0 | 248 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T03:23:21Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T03:22:18Z._
