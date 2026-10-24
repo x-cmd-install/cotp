@@ -1,22 +1,11 @@
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: cotp
-  binname: cotp
-  visiblename: cotp
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
-  licenses:
-    - GPL-3.0-only
-- repo: manjaro_testing
+- repo: manjaro_unstable
   subrepo: extra
   srcname: cotp
   binname: cotp-converters
   visiblename: cotp-converters
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
   summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
   licenses:
     - GPL-3.0-only
@@ -25,71 +14,17 @@
   srcname: cotp
   binname: cotp
   visiblename: cotp
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: outdated
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
   summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
   licenses:
     - GPL-3.0-only
-- repo: manjaro_unstable
+- repo: manjaro_testing
   subrepo: extra
   srcname: cotp
   binname: cotp-converters
   visiblename: cotp-converters
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: outdated
-  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_24_05
-  srcname: cotp
-  visiblename: cotp
-  version: 1.7.0
-  origversion: null
-  status: outdated
-  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
-  maintainers:
-    - davidslt+nixpkgs@pm.me
-  licenses:
-    - GPL-3.0-only
-- repo: homebrew
-  srcname: cotp
-  visiblename: cotp
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: TOTP/HOTP authenticator app with import functionality
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-cotp
-  binnames:
-    - cotp
-  visiblename: rust-cotp
-  version: 1.9.10
-  origversion: 1.9.10-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - vivekkj@disroot.org
-  categories:
-    - misc
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: cotp
-  binname: cotp-converters
-  visiblename: cotp-converters
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
-  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
-  licenses:
-    - GPL-3.0-only
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: cotp
-  binname: cotp
-  visiblename: cotp
   version: 1.10.0
   origversion: 1.10.0-1
   status: outdated
@@ -214,13 +149,67 @@
   origversion: null
   status: newest
   summary: TOTP/HOTP authenticator app with import functionality
+- repo: homebrew
+  srcname: cotp
+  visiblename: cotp
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: TOTP/HOTP authenticator app with import functionality
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-cotp
+  binnames:
+    - cotp
+  visiblename: rust-cotp
+  version: 1.9.10
+  origversion: 1.9.10-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - vivekkj@disroot.org
+  categories:
+    - misc
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: cotp
+  binname: cotp-converters
+  visiblename: cotp-converters
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: cotp
+  binname: cotp
+  visiblename: cotp
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: cotp
+  binname: cotp
+  visiblename: cotp
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+  licenses:
+    - GPL-3.0-only
 - repo: msys2_clang64
   srcname: mingw-w64-cotp
   binname: mingw-w64-clang-x86_64-cotp
   visiblename: mingw-w64-clang-x86_64-cotp
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
   summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality (mingw-w64)
   licenses:
     - spdx:GPL-3.0-only
@@ -228,9 +217,9 @@
   srcname: mingw-w64-cotp
   binname: mingw-w64-clang-aarch64-cotp
   visiblename: mingw-w64-clang-aarch64-cotp
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
   summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality (mingw-w64)
   licenses:
     - spdx:GPL-3.0-only
@@ -238,12 +227,23 @@
   srcname: mingw-w64-cotp
   binname: mingw-w64-ucrt-x86_64-cotp
   visiblename: mingw-w64-ucrt-x86_64-cotp
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: outdated
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: newest
   summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality (mingw-w64)
   licenses:
     - spdx:GPL-3.0-only
+- repo: nix_stable_24_05
+  srcname: cotp
+  visiblename: cotp
+  version: 1.7.0
+  origversion: null
+  status: outdated
+  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+  maintainers:
+    - davidslt+nixpkgs@pm.me
+  licenses:
+    - GPL-3.0-only
 - repo: nix_stable_24_11
   srcname: cotp
   visiblename: cotp
@@ -302,8 +302,8 @@
 - repo: parabola
   subrepo: extra
   srcname: cotp
-  binname: cotp
-  visiblename: cotp
+  binname: cotp-converters
+  visiblename: cotp-converters
   version: 1.11.0
   origversion: 1.11.0-1
   status: newest
@@ -313,8 +313,8 @@
 - repo: parabola
   subrepo: extra
   srcname: cotp
-  binname: cotp-converters
-  visiblename: cotp-converters
+  binname: cotp
+  visiblename: cotp
   version: 1.11.0
   origversion: 1.11.0-1
   status: newest
@@ -322,7 +322,7 @@
   licenses:
     - GPL-3.0-only
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-cotp
   binnames:
     - cotp
@@ -336,7 +336,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-cotp
   binnames:
     - cotp
