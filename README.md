@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 393 · **Forks**: 28 · **Open issues**: 58 · **Contributors**: 12
+- **Stars**: 393 · **Forks**: 28 · **Open issues**: 59 · **Contributors**: 12
 
 ## Totals (cumulative)
 
-- **Releases**: 51 · **Merged PRs**: 426 · **Open PRs**: 2 · **Closed issues**: 58 · **Open issues**: 0 · **Commits**: 1518
+- **Releases**: 51 · **Merged PRs**: 426 · **Open PRs**: 3 · **Closed issues**: 59 · **Open issues**: 0 · **Commits**: 1518
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 2 | 2 | 1 | 1 | 0 | 8 |
-| last60d | 2026-08-26 | 2 | 2 | 1 | 1 | 0 | 8 |
-| 90d | 2026-07-27 | 2 | 2 | 1 | 1 | 0 | 8 |
-| last180d | 2026-04-28 | 4 | 10 | 2 | 4 | 0 | 20 |
-| 360d | 2025-10-30 | 6 | 19 | 2 | 8 | 0 | 42 |
-| last720d | 2024-11-04 | 12 | 83 | 2 | 10 | 0 | 248 |
+| 30d | 2026-09-26 | 2 | 2 | 2 | 2 | 0 | 8 |
+| last60d | 2026-08-27 | 2 | 2 | 2 | 2 | 0 | 8 |
+| 90d | 2026-07-28 | 2 | 2 | 2 | 2 | 0 | 8 |
+| last180d | 2026-04-29 | 4 | 9 | 3 | 5 | 0 | 20 |
+| 360d | 2025-10-31 | 6 | 19 | 3 | 9 | 0 | 42 |
+| last720d | 2024-11-05 | 11 | 83 | 3 | 11 | 0 | 244 |
 
 ## Distribution status
 
@@ -88,4 +88,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T03:17:22Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T03:18:24Z._
