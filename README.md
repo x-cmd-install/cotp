@@ -14,11 +14,11 @@ x install cotp
 
 ## Code insight
 
-Total: **6,363** lines of code across **78** files in the top 5 languages.
+Total: **6,459** lines of code across **78** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 5,974 | 113 | 671 | 64 |
+| Rust | 6,070 | 114 | 675 | 64 |
 | Python | 223 | 4 | 46 | 6 |
 | Json | 78 | 0 | 1 | 4 |
 | Toml | 63 | 2 | 4 | 2 |
@@ -41,8 +41,8 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.11.0` (2026-10-21)
-- **Last commit**: 2026-10-21
+- **Latest**: `v1.11.1` (2026-10-26)
+- **Last commit**: 2026-10-26
 
 ## Popularity
 
@@ -50,22 +50,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 51 · **Merged PRs**: 426 · **Open PRs**: 3 · **Closed issues**: 59 · **Open issues**: 0 · **Commits**: 1518
+- **Releases**: 52 · **Merged PRs**: 427 · **Open PRs**: 2 · **Closed issues**: 59 · **Open issues**: 0 · **Commits**: 1521
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 2 | 2 | 2 | 2 | 0 | 8 |
-| last60d | 2026-08-27 | 2 | 2 | 2 | 2 | 0 | 8 |
-| 90d | 2026-07-28 | 2 | 2 | 2 | 2 | 0 | 8 |
-| last180d | 2026-04-29 | 4 | 9 | 3 | 5 | 0 | 20 |
-| 360d | 2025-10-31 | 6 | 19 | 3 | 9 | 0 | 42 |
-| last720d | 2024-11-05 | 11 | 83 | 3 | 11 | 0 | 244 |
+| 30d | 2026-09-27 | 3 | 3 | 1 | 2 | 0 | 10 |
+| last60d | 2026-08-28 | 3 | 3 | 1 | 2 | 0 | 10 |
+| 90d | 2026-07-29 | 3 | 3 | 1 | 2 | 0 | 10 |
+| last180d | 2026-04-30 | 5 | 10 | 2 | 5 | 0 | 22 |
+| 360d | 2025-11-01 | 7 | 20 | 2 | 9 | 0 | 44 |
+| last720d | 2024-11-06 | 12 | 84 | 2 | 11 | 0 | 247 |
 
 ## Distribution status
 
-Reported by **39** distros on [repology.org](https://repology.org/project/cotp). **11** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
+Reported by **39** distros on [repology.org](https://repology.org/project/cotp). **3** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -73,9 +73,9 @@ Reported by **39** distros on [repology.org](https://repology.org/project/cotp).
 | Debian 14 | `1.9.10` | ⚠️ outdated |
 | Debian 13 | `1.9.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.9.7` | ⚠️ outdated |
-| Arch | `1.11.0` | ✅ latest |
-| Homebrew | `1.11.0` | ✅ latest |
-| Nix unstable | `1.11.0` | ✅ latest |
+| Arch | `1.11.1` | ✅ latest |
+| Homebrew | `1.11.1` | ✅ latest |
+| Nix unstable | `1.11.0` | ⚠️ outdated |
 | Void | `1.9.9` | ⚠️ outdated |
 | Alpine edge | `1.9.7` | ⚠️ outdated |
 
@@ -88,4 +88,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T03:18:24Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T03:47:15Z._
