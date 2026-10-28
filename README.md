@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 3 | 3 | 1 | 2 | 0 | 10 |
-| last60d | 2026-08-28 | 3 | 3 | 1 | 2 | 0 | 10 |
-| 90d | 2026-07-29 | 3 | 3 | 1 | 2 | 0 | 10 |
-| last180d | 2026-04-30 | 5 | 10 | 2 | 5 | 0 | 22 |
-| 360d | 2025-11-01 | 7 | 20 | 2 | 9 | 0 | 44 |
-| last720d | 2024-11-06 | 12 | 84 | 2 | 11 | 0 | 247 |
+| 30d | 2026-09-28 | 3 | 3 | 1 | 2 | 0 | 10 |
+| last60d | 2026-08-29 | 3 | 3 | 1 | 2 | 0 | 10 |
+| 90d | 2026-07-30 | 3 | 3 | 1 | 2 | 0 | 10 |
+| last180d | 2026-05-01 | 5 | 10 | 2 | 3 | 0 | 22 |
+| 360d | 2025-11-02 | 7 | 20 | 2 | 9 | 0 | 44 |
+| last720d | 2024-11-07 | 12 | 84 | 2 | 11 | 0 | 247 |
 
 ## Distribution status
 
-Reported by **39** distros on [repology.org](https://repology.org/project/cotp). **3** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
+Reported by **39** distros on [repology.org](https://repology.org/project/cotp). **8** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -88,4 +88,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T03:47:15Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T04:04:45Z._
