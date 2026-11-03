@@ -46,22 +46,38 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 393 · **Forks**: 28 · **Open issues**: 59 · **Contributors**: 12
+- **Stars**: 394 · **Forks**: 28 · **Open issues**: 59 · **Contributors**: 12
 
 ## Totals (cumulative)
 
-- **Releases**: 52 · **Merged PRs**: 427 · **Open PRs**: 2 · **Closed issues**: 59 · **Open issues**: 0 · **Commits**: 1521
+- **Releases**: 52 · **Merged PRs**: 427 · **Open PRs**: 3 · **Closed issues**: 59 · **Open issues**: 0 · **Commits**: 1521
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 3 | 3 | 1 | 2 | 0 | 10 |
-| last60d | 2026-09-03 | 3 | 3 | 1 | 2 | 0 | 10 |
-| 90d | 2026-08-04 | 3 | 3 | 1 | 2 | 0 | 10 |
-| last180d | 2026-05-06 | 4 | 9 | 2 | 3 | 0 | 21 |
-| 360d | 2025-11-07 | 7 | 20 | 2 | 9 | 0 | 44 |
-| last720d | 2024-11-12 | 12 | 83 | 2 | 11 | 0 | 247 |
+| 30d | 2026-10-04 | 3 | 3 | 2 | 2 | 0 | 10 |
+| last60d | 2026-09-04 | 3 | 3 | 2 | 2 | 0 | 10 |
+| 90d | 2026-08-05 | 3 | 3 | 2 | 2 | 0 | 10 |
+| last180d | 2026-05-07 | 4 | 9 | 3 | 3 | 0 | 21 |
+| 360d | 2025-11-08 | 7 | 20 | 3 | 9 | 0 | 44 |
+| last720d | 2024-11-13 | 12 | 83 | 3 | 11 | 0 | 246 |
+
+## Distribution status
+
+Reported by **35** distros on [repology.org](https://repology.org/project/cotp). **8** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.9.10` | ⚠️ outdated |
+| Debian 14 | `1.9.10` | ⚠️ outdated |
+| Debian 13 | `1.9.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.9.7` | ⚠️ outdated |
+| Arch | `1.11.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Nix unstable | `1.11.0` | ⚠️ outdated |
+| Void | `1.9.9` | ⚠️ outdated |
+| Alpine edge | `1.9.7` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -72,4 +88,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T04:31:43Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T05:26:10Z._
