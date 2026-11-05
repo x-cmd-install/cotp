@@ -26,11 +26,11 @@ Total: **6,459** lines of code across **78** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.3 / 10**
+Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/4 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/8 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 3 | 3 | 2 | 2 | 0 | 10 |
-| last60d | 2026-09-05 | 3 | 3 | 2 | 2 | 0 | 10 |
-| 90d | 2026-08-06 | 3 | 3 | 2 | 2 | 0 | 10 |
-| last180d | 2026-05-08 | 4 | 9 | 3 | 3 | 0 | 21 |
-| 360d | 2025-11-09 | 7 | 20 | 3 | 9 | 0 | 44 |
-| last720d | 2024-11-14 | 12 | 82 | 3 | 11 | 0 | 246 |
+| 30d | 2026-10-06 | 3 | 3 | 2 | 2 | 0 | 10 |
+| last60d | 2026-09-06 | 3 | 3 | 2 | 2 | 0 | 10 |
+| 90d | 2026-08-07 | 3 | 3 | 2 | 2 | 0 | 10 |
+| last180d | 2026-05-09 | 4 | 9 | 3 | 3 | 0 | 21 |
+| 360d | 2025-11-10 | 7 | 20 | 3 | 9 | 0 | 44 |
+| last720d | 2024-11-15 | 12 | 82 | 3 | 11 | 0 | 245 |
 
 ## Distribution status
 
-Reported by **35** distros on [repology.org](https://repology.org/project/cotp). **8** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
+Reported by **35** distros on [repology.org](https://repology.org/project/cotp). **9** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -74,8 +74,8 @@ Reported by **35** distros on [repology.org](https://repology.org/project/cotp).
 | Debian 13 | `1.9.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.9.7` | ⚠️ outdated |
 | Arch | `1.11.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Nix unstable | `1.11.0` | ⚠️ outdated |
+| Homebrew | `1.11.1` | ✅ latest |
+| Nix unstable | `1.11.1` | ✅ latest |
 | Void | `1.9.9` | ⚠️ outdated |
 | Alpine edge | `1.9.7` | ⚠️ outdated |
 
@@ -88,4 +88,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T04:54:35Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T05:13:08Z._

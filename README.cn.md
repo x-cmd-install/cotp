@@ -26,11 +26,11 @@ x install cotp
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.3 / 10**
+总评分: **4.8 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/4 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/8 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -56,16 +56,16 @@ x install cotp
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 3 | 3 | 2 | 2 | 0 | 10 |
-| last60d | 2026-09-05 | 3 | 3 | 2 | 2 | 0 | 10 |
-| 90d | 2026-08-06 | 3 | 3 | 2 | 2 | 0 | 10 |
-| last180d | 2026-05-08 | 4 | 9 | 3 | 3 | 0 | 21 |
-| 360d | 2025-11-09 | 7 | 20 | 3 | 9 | 0 | 44 |
-| last720d | 2024-11-14 | 12 | 82 | 3 | 11 | 0 | 246 |
+| 30d | 2026-10-06 | 3 | 3 | 2 | 2 | 0 | 10 |
+| last60d | 2026-09-06 | 3 | 3 | 2 | 2 | 0 | 10 |
+| 90d | 2026-08-07 | 3 | 3 | 2 | 2 | 0 | 10 |
+| last180d | 2026-05-09 | 4 | 9 | 3 | 3 | 0 | 21 |
+| 360d | 2025-11-10 | 7 | 20 | 3 | 9 | 0 | 44 |
+| last720d | 2024-11-15 | 12 | 82 | 3 | 11 | 0 | 245 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/cotp) 上共有 **35** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**25** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/cotp) 上共有 **35** 个发行版报告此项目。**9** 个 ✅ 已是最新上游版本，**24** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -74,8 +74,8 @@ x install cotp
 | Debian 13 | `1.9.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.9.7` | ⚠️ outdated |
 | Arch | `1.11.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Nix unstable | `1.11.0` | ⚠️ outdated |
+| Homebrew | `1.11.1` | ✅ latest |
+| Nix unstable | `1.11.1` | ✅ latest |
 | Void | `1.9.9` | ⚠️ outdated |
 | Alpine edge | `1.9.7` | ⚠️ outdated |
 
@@ -88,4 +88,4 @@ cotp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T04:54:35Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T05:13:08Z._
