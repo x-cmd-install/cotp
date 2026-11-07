@@ -1,11 +1,67 @@
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rust-cotp
+  binnames:
+    - cotp
+  visiblename: rust-cotp
+  version: 1.9.2
+  origversion: 1.9.2-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - vivekkj@disroot.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-cotp
+  binnames:
+    - cotp
+  visiblename: rust-cotp
+  version: 1.9.2
+  origversion: 1.9.2-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - vivekkj@disroot.org
+  categories:
+    - misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: rust-cotp
+  binnames:
+    - cotp
+  visiblename: rust-cotp
+  version: 1.9.2
+  origversion: 1.9.2-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - vivekkj@disroot.org
+  categories:
+    - universe/misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-cotp
+  binnames:
+    - cotp
+  visiblename: rust-cotp
+  version: 1.9.10
+  origversion: 1.9.10-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - vivekkj@disroot.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: cotp
   binname: cotp
   visiblename: cotp
-  version: 1.9.7
-  origversion: 1.9.7-r0
-  status: outdated
+  version: 1.11.1
+  origversion: 1.11.1-r0
+  status: newest
   summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
   maintainers:
     - commoncargo@tutanota.com
@@ -14,8 +70,8 @@
 - repo: arch
   subrepo: extra
   srcname: cotp
-  binname: cotp
-  visiblename: cotp
+  binname: cotp-converters
+  visiblename: cotp-converters
   version: 1.11.1
   origversion: 1.11.1-1
   status: newest
@@ -25,8 +81,8 @@
 - repo: arch
   subrepo: extra
   srcname: cotp
-  binname: cotp-converters
-  visiblename: cotp-converters
+  binname: cotp
+  visiblename: cotp
   version: 1.11.1
   origversion: 1.11.1-1
   status: newest
@@ -137,14 +193,47 @@
     - vivekkj@disroot.org
   categories:
     - misc
-- repo: manjaro_unstable
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: cotp
+  binname: cotp
+  visiblename: cotp
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: outdated
+  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_stable
   subrepo: extra
   srcname: cotp
   binname: cotp-converters
   visiblename: cotp-converters
-  version: 1.11.0
-  origversion: 1.11.0-1
+  version: 1.10.0
+  origversion: 1.10.0-1
   status: outdated
+  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: cotp
+  binname: cotp-converters
+  visiblename: cotp-converters
+  version: 1.11.1
+  origversion: 1.11.1-1
+  status: newest
+  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: cotp
+  binname: cotp
+  visiblename: cotp
+  version: 1.11.1
+  origversion: 1.11.1-1
+  status: newest
   summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
   licenses:
     - GPL-3.0-only
@@ -153,9 +242,20 @@
   srcname: cotp
   binname: cotp
   visiblename: cotp
-  version: 1.11.0
-  origversion: 1.11.0-1
-  status: outdated
+  version: 1.11.1
+  origversion: 1.11.1-1
+  status: newest
+  summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: cotp
+  binname: cotp-converters
+  visiblename: cotp-converters
+  version: 1.11.1
+  origversion: 1.11.1-1
+  status: newest
   summary: Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality
   licenses:
     - GPL-3.0-only
@@ -278,20 +378,6 @@
   licenses:
     - GPL-3.0-only
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-cotp
-  binnames:
-    - cotp
-  visiblename: rust-cotp
-  version: 1.9.2
-  origversion: 1.9.2-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - vivekkj@disroot.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot/main
   srcname: rust-cotp
   binnames:
@@ -305,22 +391,8 @@
     - vivekkj@disroot.org
   categories:
     - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: rust-cotp
-  binnames:
-    - cotp
-  visiblename: rust-cotp
-  version: 1.9.2
-  origversion: 1.9.2-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - vivekkj@disroot.org
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: rust-cotp
   binnames:
     - cotp
@@ -333,34 +405,6 @@
     - vivekkj@disroot.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-cotp
-  binnames:
-    - cotp
-  visiblename: rust-cotp
-  version: 1.9.10
-  origversion: 1.9.10-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - vivekkj@disroot.org
-  categories:
-    - misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: rust-cotp
-  binnames:
-    - cotp
-  visiblename: rust-cotp
-  version: 1.9.2
-  origversion: 1.9.2-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - vivekkj@disroot.org
-  categories:
-    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: rust-cotp
@@ -391,6 +435,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: rust-cotp
+  binnames:
+    - cotp
+  visiblename: rust-cotp
+  version: 1.9.10
+  origversion: 1.9.10-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - vivekkj@disroot.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: rust-cotp
   binnames:
     - cotp
