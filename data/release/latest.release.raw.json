@@ -40,5 +40,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/replydev/cotp/tarball/v1.11.1",
   "zipball_url": "https://api.github.com/repos/replydev/cotp/zipball/v1.11.1",
-  "body": "## [1.11.1](https://github.com/replydev/cotp/compare/v1.11.0...v1.11.1) (2026-10-26)\n\n\n### Bug Fixes\n\n* **ui:** allow piped passwords and clarify user messages ([01e3ef6](https://github.com/replydev/cotp/commit/01e3ef6e23850f7cf349cf855b7c9706c769f595))\n* **ui:** support piped passwords and improve help text ([#696](https://github.com/replydev/cotp/issues/696)) ([9450b5f](https://github.com/replydev/cotp/commit/9450b5f3f443134440b0b3c106ca645ba578d721)), closes [#695](https://github.com/replydev/cotp/issues/695)\n"
+  "body": "## [1.11.1](https://github.com/replydev/cotp/compare/v1.11.0...v1.11.1) (2026-10-26)\n\n\n### Bug Fixes\n\n* **ui:** allow piped passwords and clarify user messages ([01e3ef6](https://github.com/replydev/cotp/commit/01e3ef6e23850f7cf349cf855b7c9706c769f595))\n* **ui:** support piped passwords and improve help text ([#696](https://github.com/replydev/cotp/issues/696)) ([9450b5f](https://github.com/replydev/cotp/commit/9450b5f3f443134440b0b3c106ca645ba578d721)), closes [#695](https://github.com/replydev/cotp/issues/695)\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/replydev/cotp/releases/424666399/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 1,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
