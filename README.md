@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-19 | 3 | 3 | 5 | 2 | 0 | 2 |
-| last60d | 2026-09-19 | 3 | 3 | 5 | 2 | 0 | 10 |
-| 90d | 2026-08-20 | 3 | 3 | 5 | 2 | 0 | 10 |
-| last180d | 2026-05-22 | 4 | 7 | 6 | 3 | 0 | 17 |
-| 360d | 2025-11-23 | 7 | 19 | 6 | 9 | 0 | 41 |
-| last720d | 2024-11-28 | 12 | 81 | 6 | 11 | 0 | 240 |
+| 30d | 2026-10-20 | 3 | 3 | 5 | 2 | 0 | 2 |
+| last60d | 2026-09-20 | 3 | 3 | 5 | 2 | 0 | 10 |
+| 90d | 2026-08-21 | 3 | 3 | 5 | 2 | 0 | 10 |
+| last180d | 2026-05-23 | 4 | 7 | 6 | 3 | 0 | 17 |
+| 360d | 2025-11-24 | 7 | 19 | 6 | 9 | 0 | 41 |
+| last720d | 2024-11-29 | 12 | 81 | 6 | 11 | 0 | 240 |
 
 ## Distribution status
 
@@ -88,4 +88,4 @@ Install metadata for cotp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261118.yml` · 2026-11-18T05:59:17Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T05:58:19Z._
